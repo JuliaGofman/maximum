@@ -1,0 +1,6 @@
+a, b, c = int(input()), int(input()), int(input())
+M = max(a, b, c)
+m = min(a, b, c)
+print(M)
+print(m)
+print(a+b+c-M-m)
